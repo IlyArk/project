@@ -4,7 +4,7 @@
 ```
 sudo apt install -y apache2
 ```
--2. Настройка Apache с помощью bash конфига
+- 2. Настройка Apache с помощью bash конфига
 ```
 bash apache2configs.sh
 ```
