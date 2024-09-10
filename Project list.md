@@ -45,9 +45,6 @@ sudo apt install -y adduser libfontconfig1 musl
 sudo dpkg -i grafana-enterprise_11.1.3_amd64.deb
 ```
 
-```
-sudo dpkg -i grafana-enterprise_11.1.3_amd64.deb
-```
 - 5 Настройка конфига и рестарт prometheus и grafana 
 ```
 bash prometheus-config
