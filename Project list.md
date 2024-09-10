@@ -31,7 +31,7 @@ sudo apt install prometheus-node-exporter
 ```
 - 2 Установка filebeat
 ```
-sudo dpkg -i filebeat_8.9.1_amd64-224190-e0af99.deb
+sudo dpkg -i filebeat_8.9.1_amd64.deb
 ```
 - 3 Настройка конфигурации
 ```
@@ -42,7 +42,7 @@ bash filebeat.sh
 sudo apt install -y adduser libfontconfig1 musl
 ```
 ```
-sudo dpkg -i grafana-enterprise_11.1.3_amd64.deb
+sudo dpkg -i grafana_11.1.0_amd64.deb
 ```
 
 - 5 Настройка конфига и рестарт prometheus и grafana 
@@ -65,14 +65,14 @@ apt install -y default-jdk
 ```
 - 4 Установка ELK и настройка конфига
 ```
-dpkg -i elasticsearch_8.9.1_amd64-224190-300799.deb
+dpkg -i elasticsearch_8.9.1_amd64.deb
 ```
 ```
 bash ELK.sh
 ```
 - 5 Установка Kibana
 ```
-dpkg -i kibana_8.9.1_amd64-224190-68eb0f.deb
+dpkg -i kibana_8.9.1_amd64.deb
 ```
 - 6 Настройка конфигурации Kibana
 ```
@@ -80,7 +80,7 @@ bash kibana.sh
 ```
 - 7 Установка Logstash
 ```
- dpkg -i logstash_8.9.1_amd64-224190-e8ea1a.deb
+ dpkg -i logstash_8.9.1_amd64.deb
 ```
 - 8 Настрйока конфигурации Logstash
 ```
