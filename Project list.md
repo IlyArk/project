@@ -6,7 +6,7 @@ sudo apt install -y apache2
 ```
 -  2 Настройка Apache с помощью bash конфига
 ```
-bash apache2configs.sh
+bash apache2.sh
 ```
 - 3 Устано Nginx и настройка кофнигурации
 ```
@@ -21,7 +21,7 @@ sudo apt install -y mysql-server-8.0
 ```
 - 2 Далее запускаем скрипт
 ```
-bash mysql-config-master.sh
+bash mysql-source.sh
 ```
 # Настраиваем мониторинг и сбор логов
 
